@@ -4,7 +4,7 @@ $age = $_POST['age'];
 
  
  
- if ( age < 18)
+ if ( $age < 18)
      echo "you are not eligible for voting";
    else
      echo "eligible for voting";
